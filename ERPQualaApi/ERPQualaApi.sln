@@ -1,0 +1,57 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2026
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ERPQualaApi", "ERPQualaApi\ERPQualaApi.csproj", "{F331DFEE-5A45-4038-B24B-DAF25FE96CA1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "20.BAL", "20.BAL", "{533A905E-8BD7-42E3-8E65-2A0CB3DA0CE6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "10.UI", "10.UI", "{5DA49024-C4BA-4E65-98E2-02A41B941C5A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ERPQuala.BAL", "ERPQuala.BAL\ERPQuala.BAL.csproj", "{C11DD079-7282-4482-BE91-02C93CC29ACB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "30.DAL", "30.DAL", "{5B4CF2FA-C9A3-4244-8796-6E3EF0C7DC0E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ERPQuala.DAL", "ERPQuala.DAL\ERPQuala.DAL.csproj", "{70D65275-C62C-4407-98C2-E4CD91E30533}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "40.Crosscutting", "40.Crosscutting", "{7ABF90C5-B23B-425B-8300-22A35D93EDC6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ERPQuala.Crosscutting", "ERPQuala.Crosscutting\ERPQuala.Crosscutting.csproj", "{BA770574-4E67-402D-921A-8D298BD932DA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F331DFEE-5A45-4038-B24B-DAF25FE96CA1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F331DFEE-5A45-4038-B24B-DAF25FE96CA1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F331DFEE-5A45-4038-B24B-DAF25FE96CA1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F331DFEE-5A45-4038-B24B-DAF25FE96CA1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C11DD079-7282-4482-BE91-02C93CC29ACB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C11DD079-7282-4482-BE91-02C93CC29ACB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C11DD079-7282-4482-BE91-02C93CC29ACB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C11DD079-7282-4482-BE91-02C93CC29ACB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{70D65275-C62C-4407-98C2-E4CD91E30533}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{70D65275-C62C-4407-98C2-E4CD91E30533}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{70D65275-C62C-4407-98C2-E4CD91E30533}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{70D65275-C62C-4407-98C2-E4CD91E30533}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BA770574-4E67-402D-921A-8D298BD932DA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BA770574-4E67-402D-921A-8D298BD932DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BA770574-4E67-402D-921A-8D298BD932DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BA770574-4E67-402D-921A-8D298BD932DA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{F331DFEE-5A45-4038-B24B-DAF25FE96CA1} = {5DA49024-C4BA-4E65-98E2-02A41B941C5A}
+		{C11DD079-7282-4482-BE91-02C93CC29ACB} = {533A905E-8BD7-42E3-8E65-2A0CB3DA0CE6}
+		{70D65275-C62C-4407-98C2-E4CD91E30533} = {5B4CF2FA-C9A3-4244-8796-6E3EF0C7DC0E}
+		{BA770574-4E67-402D-921A-8D298BD932DA} = {7ABF90C5-B23B-425B-8300-22A35D93EDC6}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {32F67B3C-E345-4F5E-97C8-7608FD8E0987}
+	EndGlobalSection
+EndGlobal

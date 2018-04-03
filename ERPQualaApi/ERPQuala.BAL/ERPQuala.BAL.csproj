@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ERPQuala.Crosscutting\ERPQuala.Crosscutting.csproj" />
+    <ProjectReference Include="..\ERPQuala.DAL\ERPQuala.DAL.csproj" />
+  </ItemGroup>
+
+</Project>

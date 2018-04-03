@@ -1,0 +1,9 @@
+C:\Users\javier\source\repos\ERPQualaApi\ERPQuala.Entities\bin\Debug\netcoreapp2.0\ERPQuala.Entities.deps.json
+C:\Users\javier\source\repos\ERPQualaApi\ERPQuala.Entities\bin\Debug\netcoreapp2.0\ERPQuala.Entities.dll
+C:\Users\javier\source\repos\ERPQualaApi\ERPQuala.Entities\bin\Debug\netcoreapp2.0\ERPQuala.Entities.pdb
+C:\Users\javier\source\repos\ERPQualaApi\ERPQuala.Entities\obj\Debug\netcoreapp2.0\ERPQuala.Entities.csprojResolveAssemblyReference.cache
+C:\Users\javier\source\repos\ERPQualaApi\ERPQuala.Entities\obj\Debug\netcoreapp2.0\ERPQuala.Entities.csproj.CoreCompileInputs.cache
+C:\Users\javier\source\repos\ERPQualaApi\ERPQuala.Entities\obj\Debug\netcoreapp2.0\ERPQuala.Entities.AssemblyInfoInputs.cache
+C:\Users\javier\source\repos\ERPQualaApi\ERPQuala.Entities\obj\Debug\netcoreapp2.0\ERPQuala.Entities.AssemblyInfo.cs
+C:\Users\javier\source\repos\ERPQualaApi\ERPQuala.Entities\obj\Debug\netcoreapp2.0\ERPQuala.Entities.dll
+C:\Users\javier\source\repos\ERPQualaApi\ERPQuala.Entities\obj\Debug\netcoreapp2.0\ERPQuala.Entities.pdb
