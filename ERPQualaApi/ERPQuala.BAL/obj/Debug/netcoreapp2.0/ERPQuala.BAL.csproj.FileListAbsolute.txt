@@ -14,3 +14,17 @@ C:\Users\javier\source\repos\ERPQualaApi\ERPQuala.BAL\bin\Debug\netcoreapp2.0\ER
 C:\Users\javier\source\repos\ERPQualaApi\ERPQuala.BAL\obj\Debug\netcoreapp2.0\ERPQuala.BAL.csproj.CopyComplete
 C:\Users\javier\source\repos\ERPQualaApi\ERPQuala.BAL\bin\Debug\netcoreapp2.0\Newtonsoft.Json.dll
 C:\Users\javier\source\repos\ERPQualaApi\ERPQuala.BAL\bin\Debug\netcoreapp2.0\Newtonsoft.Json.xml
+C:\Users\javier.carranza\Source\Repos\webApi12\WebApi\ERPQualaApi\ERPQuala.BAL\bin\Debug\netcoreapp2.0\ERPQuala.BAL.deps.json
+C:\Users\javier.carranza\Source\Repos\webApi12\WebApi\ERPQualaApi\ERPQuala.BAL\bin\Debug\netcoreapp2.0\ERPQuala.BAL.dll
+C:\Users\javier.carranza\Source\Repos\webApi12\WebApi\ERPQualaApi\ERPQuala.BAL\bin\Debug\netcoreapp2.0\ERPQuala.BAL.pdb
+C:\Users\javier.carranza\Source\Repos\webApi12\WebApi\ERPQualaApi\ERPQuala.BAL\bin\Debug\netcoreapp2.0\ERPQuala.Crosscutting.dll
+C:\Users\javier.carranza\Source\Repos\webApi12\WebApi\ERPQualaApi\ERPQuala.BAL\bin\Debug\netcoreapp2.0\ERPQuala.DAL.dll
+C:\Users\javier.carranza\Source\Repos\webApi12\WebApi\ERPQualaApi\ERPQuala.BAL\bin\Debug\netcoreapp2.0\ERPQuala.Crosscutting.pdb
+C:\Users\javier.carranza\Source\Repos\webApi12\WebApi\ERPQualaApi\ERPQuala.BAL\bin\Debug\netcoreapp2.0\ERPQuala.DAL.pdb
+C:\Users\javier.carranza\Source\Repos\webApi12\WebApi\ERPQualaApi\ERPQuala.BAL\obj\Debug\netcoreapp2.0\ERPQuala.BAL.csprojResolveAssemblyReference.cache
+C:\Users\javier.carranza\Source\Repos\webApi12\WebApi\ERPQualaApi\ERPQuala.BAL\obj\Debug\netcoreapp2.0\ERPQuala.BAL.csproj.CoreCompileInputs.cache
+C:\Users\javier.carranza\Source\Repos\webApi12\WebApi\ERPQualaApi\ERPQuala.BAL\obj\Debug\netcoreapp2.0\ERPQuala.BAL.AssemblyInfoInputs.cache
+C:\Users\javier.carranza\Source\Repos\webApi12\WebApi\ERPQualaApi\ERPQuala.BAL\obj\Debug\netcoreapp2.0\ERPQuala.BAL.AssemblyInfo.cs
+C:\Users\javier.carranza\Source\Repos\webApi12\WebApi\ERPQualaApi\ERPQuala.BAL\obj\Debug\netcoreapp2.0\ERPQuala.BAL.csproj.CopyComplete
+C:\Users\javier.carranza\Source\Repos\webApi12\WebApi\ERPQualaApi\ERPQuala.BAL\obj\Debug\netcoreapp2.0\ERPQuala.BAL.dll
+C:\Users\javier.carranza\Source\Repos\webApi12\WebApi\ERPQualaApi\ERPQuala.BAL\obj\Debug\netcoreapp2.0\ERPQuala.BAL.pdb

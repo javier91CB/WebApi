@@ -12,3 +12,12 @@ C:\Users\javier\source\repos\ERPQualaApi\ERPQuala.Crosscutting\obj\Debug\netcore
 C:\Users\javier\source\repos\ERPQualaApi\ERPQuala.Crosscutting\bin\Debug\netcoreapp2.0\Newtonsoft.Json.dll
 C:\Users\javier\source\repos\ERPQualaApi\ERPQuala.Crosscutting\bin\Debug\netcoreapp2.0\Newtonsoft.Json.xml
 C:\Users\javier\source\repos\ERPQualaApi\ERPQuala.Crosscutting\obj\Debug\netcoreapp2.0\ERPQuala.Crosscutting.csprojResolveAssemblyReference.cache
+C:\Users\javier.carranza\Source\Repos\webApi12\WebApi\ERPQualaApi\ERPQuala.Crosscutting\obj\Debug\netcoreapp2.0\ERPQuala.Crosscutting.csprojResolveAssemblyReference.cache
+C:\Users\javier.carranza\Source\Repos\webApi12\WebApi\ERPQualaApi\ERPQuala.Crosscutting\obj\Debug\netcoreapp2.0\ERPQuala.Crosscutting.csproj.CoreCompileInputs.cache
+C:\Users\javier.carranza\Source\Repos\webApi12\WebApi\ERPQualaApi\ERPQuala.Crosscutting\obj\Debug\netcoreapp2.0\ERPQuala.Crosscutting.AssemblyInfoInputs.cache
+C:\Users\javier.carranza\Source\Repos\webApi12\WebApi\ERPQualaApi\ERPQuala.Crosscutting\obj\Debug\netcoreapp2.0\ERPQuala.Crosscutting.AssemblyInfo.cs
+C:\Users\javier.carranza\Source\Repos\webApi12\WebApi\ERPQualaApi\ERPQuala.Crosscutting\obj\Debug\netcoreapp2.0\ERPQuala.Crosscutting.dll
+C:\Users\javier.carranza\Source\Repos\webApi12\WebApi\ERPQualaApi\ERPQuala.Crosscutting\obj\Debug\netcoreapp2.0\ERPQuala.Crosscutting.pdb
+C:\Users\javier.carranza\Source\Repos\webApi12\WebApi\ERPQualaApi\ERPQuala.Crosscutting\bin\Debug\netcoreapp2.0\ERPQuala.Crosscutting.deps.json
+C:\Users\javier.carranza\Source\Repos\webApi12\WebApi\ERPQualaApi\ERPQuala.Crosscutting\bin\Debug\netcoreapp2.0\ERPQuala.Crosscutting.dll
+C:\Users\javier.carranza\Source\Repos\webApi12\WebApi\ERPQualaApi\ERPQuala.Crosscutting\bin\Debug\netcoreapp2.0\ERPQuala.Crosscutting.pdb

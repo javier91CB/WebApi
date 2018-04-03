@@ -7,9 +7,6 @@ namespace ERPQuala.Crosscutting.Model.Response.BaseResponse
 {
     public class ResponseRequest<T>
     {
-        [JsonProperty("status")]
-        public string Status { get; set; }
-        [JsonProperty("data")]
-        public T ResponseData { get; set; }
+        public MsgResponse<T> MsgResponse { get; set; }
     }
 }

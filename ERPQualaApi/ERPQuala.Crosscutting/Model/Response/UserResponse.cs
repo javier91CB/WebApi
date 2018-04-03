@@ -10,5 +10,6 @@ namespace ERPQuala.Crosscutting.Model.Response
         public string userName { get; set; }
         public string firstName { get; set; }
         public string secondName { get; set; }
+        public bool isProvider { get; set; }
     }
 }

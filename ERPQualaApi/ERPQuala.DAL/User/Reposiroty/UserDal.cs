@@ -68,24 +68,21 @@ namespace ERPQuala.DAL.User.Reposiroty
                         var sch = dr.GetSchemaTable();
 
                         int orderNameUser = dr.GetOrdinal("username");
-                        int orderPassword = dr.GetOrdinal("password");
                         int orderSecondName = dr.GetOrdinal("secondname");
                         int orderFirstName = dr.GetOrdinal("firstname");
-                        int orderDni = dr.GetOrdinal("dni");
                         int orderIsProvider = dr.GetOrdinal("isprovider");
 
                         var nameUser = dr.GetValue(orderNameUser);
-                        var password = dr.GetValue(orderPassword);
                         var secondName = dr.GetValue(orderSecondName);
                         var firstName = dr.GetValue(orderFirstName);
-                        var dni = dr.GetValue(orderDni);
                         var isProvider = dr.GetValue(orderIsProvider);
 
                         registerResult = new UserResponse
                         {
                             firstName = (string)firstName,
                             secondName = (string)secondName,
-                            userName = (string)nameUser
+                            userName = (string)nameUser,
+                            isProvider = (bool)isProvider
                         };
                     }
                     return Task.FromResult(registerResult);
