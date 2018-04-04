@@ -16,7 +16,6 @@ namespace ERPQualaApi.Controllers
 {
     [Produces("application/json")]
     [Route("api/User")]
-    [AllowAnonymous]
     public class UserController : Controller
     {
         private readonly IUserBl _userBl;
@@ -28,59 +27,56 @@ namespace ERPQualaApi.Controllers
         // GET: api/User/5
         [HttpPost]
         [Route("/api/GetUser")]
-        public Task<ResponseRequest<UserResponse>> GetUserPost([FromBody]UserRequest user)
+        public IActionResult GetUserPost([FromBody]UserRequest user)
         {
-            if (user == null) return Task.FromResult(new ResponseRequest<UserResponse>{});
+            if (user == null) return BadRequest();
             var result = _userBl.GetUserAsync(user).Result;
-            return Task.FromResult(new ResponseRequest<UserResponse>
-            {
-                MsgResponse = new MsgResponse<UserResponse>
-                {
-                    body = new ResponseBody<UserResponse>
-                    {
-                        DataResponse = new List<UserResponse>
-                        {
-                            result
-                        }
-                    } ,
-                    error = string.Format("N/A"),
-                    header = string.Format(""),
-                    warning = new MsgWarning
-                    {
-                        warningCode = StatusCodes.Status200OK,
-                        warningDesc = "N/A"
-                    }
-                }
-            });
+
+            return Ok(result);
+            //return Task.FromResult(new ResponseRequest<UserResponse>
+            //{
+            //    MsgResponse = new MsgResponse<UserResponse>
+            //    {
+            //        body = new ResponseBody<UserResponse>
+            //        {
+            //            DataResponse = new List<UserResponse>
+            //            {
+            //                result
+            //            }
+            //        } ,
+            //        warning = new MsgWarning
+            //        {
+            //            warningCode = StatusCodes.Status200OK,
+            //        }
+            //    }
+            //});
         }
 
        // POST: api/User
        [HttpPost]
        [Route("/api/AddUser")]
-        public Task<ResponseRequest<UserResponse>> Post([FromBody]UserRequest user)
+        public IActionResult Post([FromBody]UserRequest user)
         {
-            if (user == null) return Task.FromResult(new ResponseRequest<UserResponse> { });
+            if (user == null) return BadRequest();
             var result = _userBl.CreateUserAsync(user).Result;
-            return Task.FromResult(new ResponseRequest<UserResponse>
-            {
-                MsgResponse = new MsgResponse<UserResponse>
-                {
-                    body = new ResponseBody<UserResponse>
-                    {
-                        DataResponse = new List<UserResponse>
-                        {
-                            result
-                        }
-                    },
-                    error = string.Format("N/A"),
-                    header = string.Format(""),
-                    warning = new MsgWarning
-                    {
-                        warningCode = StatusCodes.Status200OK,
-                        warningDesc = "N/A"
-                    }
-                }
-            });
+            return Ok(result);
+            //return Task.FromResult(new ResponseRequest<UserResponse>
+            //{
+            //    MsgResponse = new MsgResponse<UserResponse>
+            //    {
+            //        body = new ResponseBody<UserResponse>
+            //        {
+            //            DataResponse = new List<UserResponse>
+            //            {
+            //                result
+            //            }
+            //        },
+            //        warning = new MsgWarning
+            //        {
+            //            warningCode = StatusCodes.Status200OK,
+            //        }
+            //    }
+            //});
         }
 
     }

@@ -26,3 +26,15 @@ C:\Users\javier.carranza\Source\Repos\webApi12\WebApi\ERPQualaApi\ERPQuala.DAL\o
 C:\Users\javier.carranza\Source\Repos\webApi12\WebApi\ERPQualaApi\ERPQuala.DAL\obj\Debug\netcoreapp2.0\ERPQuala.DAL.csproj.CopyComplete
 C:\Users\javier.carranza\Source\Repos\webApi12\WebApi\ERPQualaApi\ERPQuala.DAL\obj\Debug\netcoreapp2.0\ERPQuala.DAL.dll
 C:\Users\javier.carranza\Source\Repos\webApi12\WebApi\ERPQualaApi\ERPQuala.DAL\obj\Debug\netcoreapp2.0\ERPQuala.DAL.pdb
+C:\Users\javier\Source\Repos\finalFinal\WebApi\ERPQualaApi\ERPQuala.DAL\bin\Debug\netcoreapp2.0\ERPQuala.DAL.deps.json
+C:\Users\javier\Source\Repos\finalFinal\WebApi\ERPQualaApi\ERPQuala.DAL\bin\Debug\netcoreapp2.0\ERPQuala.DAL.dll
+C:\Users\javier\Source\Repos\finalFinal\WebApi\ERPQualaApi\ERPQuala.DAL\bin\Debug\netcoreapp2.0\ERPQuala.DAL.pdb
+C:\Users\javier\Source\Repos\finalFinal\WebApi\ERPQualaApi\ERPQuala.DAL\bin\Debug\netcoreapp2.0\ERPQuala.Crosscutting.dll
+C:\Users\javier\Source\Repos\finalFinal\WebApi\ERPQualaApi\ERPQuala.DAL\bin\Debug\netcoreapp2.0\ERPQuala.Crosscutting.pdb
+C:\Users\javier\Source\Repos\finalFinal\WebApi\ERPQualaApi\ERPQuala.DAL\obj\Debug\netcoreapp2.0\ERPQuala.DAL.csprojResolveAssemblyReference.cache
+C:\Users\javier\Source\Repos\finalFinal\WebApi\ERPQualaApi\ERPQuala.DAL\obj\Debug\netcoreapp2.0\ERPQuala.DAL.csproj.CoreCompileInputs.cache
+C:\Users\javier\Source\Repos\finalFinal\WebApi\ERPQualaApi\ERPQuala.DAL\obj\Debug\netcoreapp2.0\ERPQuala.DAL.AssemblyInfoInputs.cache
+C:\Users\javier\Source\Repos\finalFinal\WebApi\ERPQualaApi\ERPQuala.DAL\obj\Debug\netcoreapp2.0\ERPQuala.DAL.AssemblyInfo.cs
+C:\Users\javier\Source\Repos\finalFinal\WebApi\ERPQualaApi\ERPQuala.DAL\obj\Debug\netcoreapp2.0\ERPQuala.DAL.csproj.CopyComplete
+C:\Users\javier\Source\Repos\finalFinal\WebApi\ERPQualaApi\ERPQuala.DAL\obj\Debug\netcoreapp2.0\ERPQuala.DAL.dll
+C:\Users\javier\Source\Repos\finalFinal\WebApi\ERPQualaApi\ERPQuala.DAL\obj\Debug\netcoreapp2.0\ERPQuala.DAL.pdb
