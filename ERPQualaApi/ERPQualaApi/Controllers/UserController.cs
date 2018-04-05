@@ -27,56 +27,21 @@ namespace ERPQualaApi.Controllers
         // GET: api/User/5
         [HttpPost]
         [Route("/api/GetUser")]
-        public IActionResult GetUserPost([FromBody]UserRequest user)
+        public IActionResult GetUserPost([FromBody]ERPQuala.Crosscutting.Model.User user)
         {
             if (user == null) return BadRequest();
             var result = _userBl.GetUserAsync(user).Result;
-
             return Ok(result);
-            //return Task.FromResult(new ResponseRequest<UserResponse>
-            //{
-            //    MsgResponse = new MsgResponse<UserResponse>
-            //    {
-            //        body = new ResponseBody<UserResponse>
-            //        {
-            //            DataResponse = new List<UserResponse>
-            //            {
-            //                result
-            //            }
-            //        } ,
-            //        warning = new MsgWarning
-            //        {
-            //            warningCode = StatusCodes.Status200OK,
-            //        }
-            //    }
-            //});
         }
 
        // POST: api/User
        [HttpPost]
        [Route("/api/AddUser")]
-        public IActionResult Post([FromBody]UserRequest user)
+        public IActionResult Post([FromBody]ERPQuala.Crosscutting.Model.User user)
         {
             if (user == null) return BadRequest();
             var result = _userBl.CreateUserAsync(user).Result;
             return Ok(result);
-            //return Task.FromResult(new ResponseRequest<UserResponse>
-            //{
-            //    MsgResponse = new MsgResponse<UserResponse>
-            //    {
-            //        body = new ResponseBody<UserResponse>
-            //        {
-            //            DataResponse = new List<UserResponse>
-            //            {
-            //                result
-            //            }
-            //        },
-            //        warning = new MsgWarning
-            //        {
-            //            warningCode = StatusCodes.Status200OK,
-            //        }
-            //    }
-            //});
         }
 
     }

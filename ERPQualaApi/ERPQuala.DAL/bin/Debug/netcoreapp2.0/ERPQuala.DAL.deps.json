@@ -1,7 +1,7 @@
 {
   "runtimeTarget": {
     "name": ".NETCoreApp,Version=v2.0",
-    "signature": "cf7f2c268cf15d04d4dfb4ec1b024ac65f789eb6"
+    "signature": "c77c78459eb9270e2c36edab25e05225ed6079b9"
   },
   "compilationOptions": {},
   "targets": {
@@ -9,10 +9,18 @@
       "ERPQuala.DAL/1.0.0": {
         "dependencies": {
           "ERPQuala.Crosscutting": "1.0.0",
-          "Npgsql": "3.2.7"
+          "EntityFramework": "6.2.0",
+          "Npgsql": "3.2.7",
+          "Npgsql.EntityFramework": "2.2.7"
         },
         "runtime": {
           "ERPQuala.DAL.dll": {}
+        }
+      },
+      "EntityFramework/6.2.0": {
+        "runtime": {
+          "lib/net45/EntityFramework.SqlServer.dll": {},
+          "lib/net45/EntityFramework.dll": {}
         }
       },
       "Microsoft.CSharp/4.4.0": {},
@@ -137,6 +145,15 @@
         },
         "runtime": {
           "lib/netstandard2.0/Npgsql.dll": {}
+        }
+      },
+      "Npgsql.EntityFramework/2.2.7": {
+        "dependencies": {
+          "EntityFramework": "6.2.0",
+          "Npgsql": "3.2.7"
+        },
+        "runtime": {
+          "lib/net45/Npgsql.EntityFramework.dll": {}
         }
       },
       "Npgsql.EntityFrameworkCore.PostgreSQL/2.0.1": {
@@ -373,6 +390,13 @@
       "serviceable": false,
       "sha512": ""
     },
+    "EntityFramework/6.2.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ptGyXOf26qLrtn+2doAmylIlCxOnBJANwlyyLrXDmqIk9O18IzLWHyxDwwAyhgXkxmbiaA0WNpRy67WRReInBw==",
+      "path": "entityframework/6.2.0",
+      "hashPath": "entityframework.6.2.0.nupkg.sha512"
+    },
     "Microsoft.CSharp/4.4.0": {
       "type": "package",
       "serviceable": true,
@@ -491,6 +515,13 @@
       "sha512": "sha512-CxSXzWn/MNbHX8L1xfQSzrZfJEA2Yt5cvT27Az5abmvbqtUY1ab6xAkmBj5FfLyKCIYEnmSrxn1IY1+Jy13oFA==",
       "path": "npgsql/3.2.7",
       "hashPath": "npgsql.3.2.7.nupkg.sha512"
+    },
+    "Npgsql.EntityFramework/2.2.7": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-6G0AGtSD8KeMaqyB9zJQXtUpW8LTdiSULmYuQxvQty2OmK90x8VNkAuwhN4VLKjsKPfiiPfDZ0iEf3RYisg9xA==",
+      "path": "npgsql.entityframework/2.2.7",
+      "hashPath": "npgsql.entityframework.2.2.7.nupkg.sha512"
     },
     "Npgsql.EntityFrameworkCore.PostgreSQL/2.0.1": {
       "type": "package",

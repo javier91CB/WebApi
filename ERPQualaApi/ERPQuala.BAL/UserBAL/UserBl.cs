@@ -17,12 +17,12 @@ namespace ERPQuala.BAL.UserBAL
             _userDal = userDal;
         }
 
-        public Task<UserResponse> CreateUserAsync(UserRequest user)
+        public Task<IEnumerable<Crosscutting.Model.User>> CreateUserAsync(Crosscutting.Model.User user)
         {
             return _userDal.AddUser(user);
         }
 
-        public Task<UserResponse> GetUserAsync(UserRequest user)
+        public Task<IEnumerable<Crosscutting.Model.User>> GetUserAsync(Crosscutting.Model.User user)
         {
             return _userDal.GetUserById(user);
         }

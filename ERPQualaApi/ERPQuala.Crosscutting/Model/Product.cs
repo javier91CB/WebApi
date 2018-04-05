@@ -7,7 +7,10 @@ namespace ERPQuala.Crosscutting.Model
 {
     public class Product
     {
-        public string ProductName { get; set; }
+        public int Id { get; set; }
+        public string Code { get; set; }
+        public string Name { get; set; }
+        public double Price { get; set; }
         public double Quantity { get; set; }
 
     }

@@ -4129,7 +4129,9 @@
       "ERPQuala.DAL/1.0.0": {
         "dependencies": {
           "ERPQuala.Crosscutting": "1.0.0",
-          "Npgsql": "4.0.0-preview1"
+          "EntityFramework": "6.2.0",
+          "Npgsql": "4.0.0-preview1",
+          "Npgsql.EntityFramework": "2.2.7"
         },
         "runtime": {
           "ERPQuala.DAL.dll": {}

@@ -13,9 +13,30 @@ namespace ERPQuala.BAL.StockBL
         {
             _stockDal = stockDal;
         }
-        public Task<IEnumerable<Product>> UpdateAsync(Product parameters)
+        public Task<IEnumerable<Product>> UpdateAsync(Product product)
         {
-            return _stockDal.UpdateAsync(parameters);
+            return _stockDal.UpdateAsync(product);
         }
+        public Task<IEnumerable<Product>> AddAsync(Product product)
+        {
+            return _stockDal.AddAsync(product);
+        }
+
+        public Task<IEnumerable<Product>> DeleteAsync(Product product)
+        {
+            return _stockDal.DeleteAsync(product);
+        }
+
+        public Task<IEnumerable<Product>> GetAllAsync()
+        {
+            return _stockDal.GetAllAsync();
+        }
+
+        public Task<IEnumerable<Product>> GetAsync(Product product)
+        {
+            return _stockDal.GetAsync(product);
+        }
+
+        
     }
 }

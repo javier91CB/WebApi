@@ -8,7 +8,7 @@ namespace ERPQuala.BAL.UserBAL
 {
     public interface IUserBl
     {
-        Task<UserResponse> CreateUserAsync(UserRequest user);
-        Task<UserResponse> GetUserAsync(UserRequest user);
+        Task<IEnumerable<Crosscutting.Model.User>> CreateUserAsync(Crosscutting.Model.User user);
+        Task<IEnumerable<Crosscutting.Model.User>> GetUserAsync(Crosscutting.Model.User user);
     }
 }

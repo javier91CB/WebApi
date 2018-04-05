@@ -5084,7 +5084,9 @@
         "framework": ".NETCoreApp,Version=v2.0",
         "dependencies": {
           "ERPQuala.Crosscutting": "1.0.0",
-          "Npgsql": "3.2.7"
+          "EntityFramework": "6.2.0",
+          "Npgsql": "3.2.7",
+          "Npgsql.EntityFramework": "2.2.7"
         },
         "compile": {
           "bin/placeholder/ERPQuala.DAL.dll": {}
